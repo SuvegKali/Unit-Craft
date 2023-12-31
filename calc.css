@@ -1,0 +1,83 @@
+body {
+    
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 1rem;
+    background-color: aliceblue;
+    padding: 3rem;
+  }
+  .heading{
+    font-family: 'pacifico',cursive;
+    text-align: center;
+    font-size: 4rem;
+  }
+  
+  .calculator {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 8px;
+    max-width: 300px;
+    margin: auto;
+    padding: 16px;
+    border: 1px solid rgb(214, 31, 31);
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .display {
+    grid-column: span 4;
+    font-size: 1.5em;
+    padding: 8px;
+    text-align: right;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  
+  .btn {
+    font-size: 1.2em;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #64ae1a;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #5b2394;
+    
+  }
+  .background{
+    transform: rotate(-45deg);
+  }  
+  .navbar{
+    justify-content: center;
+    overflow: hidden;
+    
+}
+#nav-design{
+    color:black;
+}
+#nav-design :hover{
+    color:red;
+}
+#navlist{
+    list-style: none;
+       display: flex;
+       padding: 0;
+       margin: 0;
+       background: bgimage;
+}
+#navlist li{
+    flex: auto;
+      text-align: center;
+      padding: 1.6em;
+      font-size: 18px;
+      color: black;
+}
+#navlist li:hover{
+    
+    color: red;
+}

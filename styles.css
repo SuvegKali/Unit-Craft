@@ -1,0 +1,50 @@
+.body{
+    background-color: rgb(26, 21, 16);
+}
+.heading{
+    background-color: black;
+    color:white;
+    padding: 5rem;
+    margin: 1rem;
+    text-align: center;
+    font-size: 75px;
+}
+
+.navbar{
+    justify-content: center;
+    overflow: hidden;
+    
+    
+}
+#nav-design{
+    color:black;
+}
+#nav-design :hover{
+    color:red;
+}
+#navlist{
+    list-style: none;
+       display: flex;
+       padding: 0;
+       margin: 0;
+       background: bgimage;
+}
+#navlist li{
+    flex: auto;
+      text-align: center;
+      padding: 1.6em;
+      font-size: 18px;
+      color: black;
+}
+#navlist li:hover{
+    
+    color: red;
+}
+
+.about{
+    text-align: center;
+    margin: 3rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    font-size: 45px;
+}
